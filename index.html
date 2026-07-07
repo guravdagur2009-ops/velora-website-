@@ -5,102 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>VELORA | Pure Earth. Pure Glow.</title>
 
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-body{
-background:#faf8f3;
-color:#333;
-}
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-header{
-background:white;
-padding:25px;
-text-align:center;
-box-shadow:0 2px 10px rgba(0,0,0,.08);
-}
-
-header h1{
-font-size:42px;
-letter-spacing:5px;
-color:#b8860b;
-}
-
-header p{
-margin-top:8px;
-color:#666;
-}
-
-.container{
-max-width:1000px;
-margin:auto;
-padding:20px;
-}
-
-.hero{
-text-align:center;
-padding:40px 20px;
-}
-
-.hero img{
-width:250px;
-max-width:100%;
-border-radius:15px;
-}
-
-.hero h2{
-font-size:34px;
-margin-top:20px;
-}
-
-.price{
-font-size:30px;
-font-weight:bold;
-color:#b8860b;
-margin:15px 0;
-}
-
-.button{
-display:inline-block;
-background:#b8860b;
-color:white;
-padding:15px 35px;
-text-decoration:none;
-border-radius:30px;
-font-size:18px;
-}
-
-.card{
-background:white;
-padding:25px;
-border-radius:15px;
-margin-top:25px;
-box-shadow:0 5px 15px rgba(0,0,0,.08);
-}
-
-.card h3{
-margin-bottom:15px;
-color:#b8860b;
-}
-
-ul{
-padding-left:20px;
-line-height:2;
-}
-
-footer{
-margin-top:40px;
-background:#222;
-color:white;
-text-align:center;
-padding:25px;
-}
-</style>
+<link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -108,97 +18,847 @@ padding:25px;
 
 <header>
 
-<h1>VELORA</h1>
+<div class="logo">
+<img src="logo.png">
+</div>
 
-<p>Pure Earth. Pure Glow.</p>
+<nav>
+
+<a href="#home">Home</a>
+
+<a href="#about">About</a>
+
+<a href="#benefits">Benefits</a>
+
+<a href="#reviews">Reviews</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
 
 </header>
 
-<div class="container">
+<section class="hero" id="home">
 
-<div class="hero">
+<div class="hero-text">
 
-<img src="https://placehold.co/500x500?text=VELORA" alt="VELORA">
+<h1>PURE EARTH.<br>PURE GLOW.</h1>
 
-<h2>Premium Multani Clay Powder</h2>
+<p>
 
-<div class="price">₹149</div>
+Premium Multani Clay Powder
 
-<a class="button" href="https://wa.me/919785276227">
+made with natural ingredients
+
+for healthy glowing skin.
+
+</p>
+
+<a href="https://wa.me/919785276227" class="btn">
+
 Order on WhatsApp
+
 </a>
 
 </div>
 
-<div class="card">
+<div class="hero-image">
 
-<h3>About Product</h3>
+<img src="product.png">
+
+</div>
+
+</section>
+
+<section class="about" id="about">
+
+<h2>Why VELORA?</h2>
 
 <p>
 
-VELORA Premium Multani Clay Powder helps remove excess oil, deeply cleanses the skin and leaves it feeling fresh.
+VELORA Premium Multani Clay Powder deeply cleanses skin,
+
+controls oil,
+
+removes dirt,
+
+tightens pores,
+
+and gives a healthy natural glow.
 
 </p>
 
-</div>
+</section>
 
-<div class="card">
+<section class="benefits" id="benefits">
 
-<h3>Benefits</h3>
+<div class="box">
 
-<ul>
+<h3>100% Natural</h3>
 
-<li>100% Natural</li>
-
-<li>Deep Cleansing</li>
-
-<li>Removes Excess Oil</li>
-
-<li>Natural Glow</li>
-
-<li>Soft & Smooth Skin</li>
-
-</ul>
+<p>No Chemicals Added</p>
 
 </div>
 
-<div class="card">
+<div class="box">
 
-<h3>How To Use</h3>
+<h3>Controls Oil</h3>
 
-<p>
-
-Mix with water or rose water.<br>
-
-Apply evenly on face.<br>
-
-Leave for 10–15 minutes.<br>
-
-Wash with clean water.
-
-</p>
+<p>Deep Cleansing Formula</p>
 
 </div>
 
-<div class="card">
+<div class="box">
 
-<h3>Contact</h3>
+<h3>Healthy Glow</h3>
 
-<p>
-
-WhatsApp: +91 9785276227
-
-</p>
+<p>Soft & Smooth Skin</p>
 
 </div>
 
+<div class="box">
+
+<h3>Made in India</h3>
+
+<p>Premium Quality</p>
+
 </div>
+
+</section>
+
+<section class="product">
+
+<img src="product.png">
+
+<h2>Premium Multani Clay Powder</h2>
+
+<h3>₹149</h3>
+
+<a href="https://wa.me/919785276227" class="btn">
+
+Buy Now
+
+</a>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#f8f6f2;
+color:#222;
+}
+
+header{
+width:100%;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#fff;
+position:fixed;
+top:0;
+left:0;
+z-index:999;
+box-shadow:0 5px 20px rgba(0,0,0,.05);
+}
+
+.logo img{
+height:60px;
+}
+
+nav a{
+text-decoration:none;
+margin-left:28px;
+color:#222;
+font-weight:500;
+transition:.3s;
+}
+
+nav a:hover{
+color:#b68b1d;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:140px 8% 80px;
+}
+
+.hero-text{
+max-width:520px;
+}
+
+.hero-text h1{
+font-family:'Cormorant Garamond',serif;
+font-size:70px;
+line-height:1.1;
+color:#111;
+margin-bottom:20px;
+}
+
+.hero-text p{
+font-size:18px;
+color:#555;
+line-height:1.8;
+margin-bottom:35px;
+}
+
+.btn{
+display:inline-block;
+background:#b68b1d;
+color:white;
+padding:15px 35px;
+border-radius:40px;
+text-decoration:none;
+font-weight:600;
+transition:.35s;
+}
+
+.btn:hover{
+background:#111;
+transform:translateY(-3px);
+}
+
+.hero-image img{
+width:420
+// Fade-in animation on scroll
+
+const observer = new IntersectionObserver((entries)=>{
+entries.forEach(entry=>{
+if(entry.isIntersecting){
+entry.target.classList.add("show");
+}
+});
+},{
+threshold:0.15
+});
+
+document.querySelectorAll(".about,.box,.product").forEach(el=>{
+el.classList.add("hidden");
+observer.observe(el);
+});
+
+// Header shadow on scroll
+
+window.addEventListener("scroll",()=>{
+
+const header=document.querySelector("header");
+
+if(window.scrollY>40){
+
+header.style.boxShadow="0 12px 30px rgba(0,0,0,.10)";
+
+header.style.background="#ffffffee";
+
+header.style.backdropFilter="blur(10px)";
+
+}else{
+
+header.style.boxShadow="0 5px 20px rgba(0,0,0,.05)";
+
+header.style.background="#fff";
+
+header.style.backdropFilter="none";
+
+}
+
+});
+
+// Smooth button animation
+
+document.querySelectorAll(".btn").forEach(btn=>{
+
+btn.addEventListener("mouseenter",()=>{
+
+btn.style.transform="translateY(-4px) scale(1.03)";
+
+});
+
+btn.addEventListener("mouseleave",()=>{
+
+btn.style.transform="translateY(0) scale(1)";
+
+});
+
+});
+
+// Hero image floating effect
+
+const heroImage=document.querySelector(".hero-image img");
+
+let direction=1;
+
+setInterval(()=>{
+
+if(heroImage){
+
+heroImage.style.transform=`translateY(${direction*8}px)`;
+
+direction*=-1;
+
+}
+
+},2000);
+
+// Page loaded animation
+
+window.addEventListener("load",()=>{
+
+document.body.style.opacity="1";
+body{
+opacity:0;
+transition:1s;
+}
+
+.hidden{
+opacity:0;
+transform:translateY(60px);
+transition:1s;
+}
+
+.show{
+opacity:1;
+transform:translateY(0);
+}
+});
+
+// Console message
+<!-- Reviews -->
+
+<section class="reviews" id="reviews">
+
+<h2>What Our Customers Say</h2>
+
+<div class="review-grid">
+
+<div class="review-card">
+⭐⭐⭐⭐⭐
+<p>"Best Multani Clay I have ever used. Skin feels fresh."</p>
+<h4>Priya S.</h4>
+</div>
+
+<div class="review-card">
+⭐⭐⭐⭐⭐
+<p>"Very fine powder and premium packaging."</p>
+<h4>Rahul K.</h4>
+</div>
+
+<div class="review-card">
+⭐⭐⭐⭐⭐
+<p>"Natural glow after just a few uses."</p>
+<h4>Neha M.</h4>
+</div>
+
+</div>
+
+</section>
+
+<!-- FAQ -->
+
+<section class="faq">
+
+<h2>Frequently Asked Questions</h2>
+
+<div class="faq-item">
+
+<button class="faq-btn">
+Is it 100% Natural?
+</button>
+
+<div class="faq-content">
+Yes, it is made from premium quality natural Multani Clay.
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<button class="faq-btn">
+How many times can I use it?
+</button>
+
+<div class="faq-content">
+2–3 times every week.
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<button class="faq-btn">
+Is it suitable for oily skin?
+</button>
+
+<div class="faq-content">
+Yes, especially for oily and combination skin.
+</div>
+
+</div>
+
+</section>
+
+<!-- Floating WhatsApp -->
+
+<a class="whatsapp"
+href="https://wa.me/919785276227">
+
+💬
+
+</a>
 
 <footer>
 
-© 2026 VELORA • All Rights Reserved
+<h2>VELORA</h2>
+
+<p>Pure Earth. Pure Glow.</p>
+
+<p>
+
+WhatsApp
+
++91 9785276227
+
+</p>
+
+<p>
+
+© 2026 VELORA
+
+</p>
 
 </footer>
+console.log("VELORA Premium Website Loaded");
+.reviews{
 
-</body>
-</html>
+padding:100px 8%;
+
+text-align:center;
+
+}
+
+.review-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+gap:25px;
+
+margin-top:40px;
+
+}
+
+.review-card{
+
+background:white;
+
+padding:30px;
+
+border-radius:18px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.review-card h4{
+
+margin-top:15px;
+
+color:#b68b1d;
+
+}
+
+.faq{
+
+padding:100px 8%;
+
+}
+
+.faq h2{
+
+text-align:center;
+
+margin-bottom:40px;
+
+}
+
+.faq-item{
+
+background:white;
+
+margin-bottom:15px;
+
+border-radius:12px;
+
+overflow:hidden;
+
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.faq-btn{
+
+width:100%;
+
+padding:20px;
+
+font-size:18px;
+
+background:white;
+
+border:none;
+
+cursor:pointer;
+
+text-align:left;
+
+}
+
+.faq-content{
+
+display:none;
+
+padding:20px;
+
+color:#666;
+
+}
+
+.whatsapp{
+
+position:fixed;
+
+right:25px;
+
+bottom:25px;
+
+width:65px;
+
+height:65px;
+
+background:#25D366;
+
+color:white;
+
+border-radius:50%;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+font-size:30px;
+
+text-decoration:none;
+
+box-shadow:0 10px 20px rgba(0,0,0,.25);
+
+z-index:999;
+
+}
+
+footer{
+
+background:#111;
+
+color:white;
+
+padding:50px;
+
+text-align:center;
+
+margin-top:80px;
+
+}
+
+footer h2{
+
+font-size:40px;
+
+margin-bottom:10px;
+
+}
+document.querySelectorAll(".faq-btn").forEach(btn=>{
+
+btn.addEventListener("click",()=>{
+
+const content=btn.nextElementSibling;
+
+document.querySelectorAll(".faq-content").forEach(item=>{
+
+if(item!==content){
+
+item.style.display="none";
+
+}
+
+});
+
+content.style.display=
+
+content.style.display==="block"
+
+?
+
+"none"
+
+:
+
+"block";
+
+});
+<!-- Premium Gallery -->
+
+<section class="gallery">
+
+<h2>VELORA Experience</h2>
+
+<div class="gallery-grid">
+
+<div class="gallery-card">
+
+<img src="product.png">
+
+</div>
+
+<div class="gallery-card">
+
+<img src="product.png">
+
+</div>
+
+<div class="gallery-card">
+
+<img src="product.png">
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Why Choose Velora -->
+
+<section class="why">
+
+<h2>Why Choose VELORA?</h2>
+
+<div class="why-grid">
+
+<div>
+
+<h3>🌿 Premium Quality</h3>
+
+<p>Finely processed Multani Clay.</p>
+
+</div>
+
+<div>
+
+<h3>✨ Luxury Packaging</h3>
+
+<p>Premium pouch with elegant design.</p>
+
+</div>
+
+<div>
+
+<h3>🚚 Fast Delivery</h3>
+
+<p>Quick dispatch across India.</p>
+
+</div>
+
+<div>
+
+<h3>❤️ Trusted Brand</h3>
+
+<p>Made with care for healthy skin.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CTA -->
+
+<section class="cta">
+
+<h2>Ready For Natural Glow?</h2>
+
+<p>Order your VELORA Premium Multani Clay today.</p>
+
+<a href="https://wa.me/919785276227" class="btn">
+
+Order Now
+
+</a>
+
+</section>
+});
+.gallery{
+
+padding:100px 8%;
+
+text-align:center;
+
+}
+
+.gallery-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:25px;
+
+margin-top:40px;
+
+}
+
+.gallery-card{
+
+overflow:hidden;
+
+border-radius:20px;
+
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.gallery-card img{
+
+width:100%;
+
+display:block;
+
+transition:.5s;
+
+}
+
+.gallery-card:hover img{
+
+transform:scale(1.08);
+
+}
+
+.why{
+
+padding:100px 8%;
+
+background:white;
+
+}
+
+.why h2{
+
+text-align:center;
+
+margin-bottom:40px;
+
+}
+
+.why-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+
+gap:30px;
+
+}
+
+.why-grid div{
+
+padding:30px;
+
+border-radius:18px;
+
+background:#faf8f2;
+
+}
+
+.cta{
+
+padding:120px 8%;
+
+text-align:center;
+
+background:linear-gradient(135deg,#111,#333);
+
+color:white;
+
+}
+
+.cta h2{
+
+font-size:52px;
+
+margin-bottom:20px;
+
+font-family:'Cormorant Garamond',serif;
+
+}
+
+.cta p{
+
+margin-bottom:35px;
+
+font-size:20px;
+
+color:#ddd;
+}
+// Gallery animation
+
+document.querySelectorAll(".gallery-card").forEach(card=>{
+
+card.addEventListener("mouseenter",()=>{
+
+card.style.transform="translateY(-10px)";
+
+});
+
+card.addEventListener("mouseleave",()=>{
+
+card.style.transform="translateY(0px)";
+
+});
+
+});
+
+// Fade animation
+
+window.addEventListener("scroll",()=>{
+
+document.querySelectorAll(".gallery,.why,.cta").forEach(sec=>{
+
+const top=sec.getBoundingClientRect().top;
+
+if(top<window.innerHeight-100){
+
+sec.style.opacity="1";
+
+sec.style.transform="translateY(0px)";
+
+}
+
+});
+
+});
+        
